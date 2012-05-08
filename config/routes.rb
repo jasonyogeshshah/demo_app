@@ -1,7 +1,7 @@
 DemoApp::Application.routes.draw do
 #  resources :users,
 
-root :to => redirect("public/500.html")
+# root :to => redirect("public/500.html")
 
 # root :to => redirect("app/views/users/index.html.erb")
 
