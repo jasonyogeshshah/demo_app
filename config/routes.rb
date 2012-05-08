@@ -5,7 +5,9 @@ DemoApp::Application.routes.draw do
 
 # root :to => redirect("app/views/users/index.html.erb")
 
- root_url  => '../app/views/users/index.html.erb'
+ root_url  => 'public/500.html' 
+
+# root_url  => '../app/views/users/index.html.erb'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
