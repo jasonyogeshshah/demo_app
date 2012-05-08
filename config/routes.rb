@@ -1,5 +1,5 @@
 DemoApp::Application.routes.draw do
-  resources :users,
+#  resources :users,
 
 
 root_url  => '../app/views/users/index.html.erb',
