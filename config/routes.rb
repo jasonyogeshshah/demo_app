@@ -2,7 +2,7 @@ DemoApp::Application.routes.draw do
   resources :users,
 
 root_path => '/',
-root_url  => 'http://miram.dreamhost.com/rails_projects/demo_app/app/views/users/index.html.erb',
+root_url  => '../app/views/users/index.html.erb',
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
