@@ -1,7 +1,7 @@
 DemoApp::Application.routes.draw do
   resources :users,
 
-root_path => '/',
+
 root_url  => '../app/views/users/index.html.erb',
 
   # The priority is based upon order of creation:
