@@ -1,5 +1,5 @@
 DemoApp::Application.routes.draw do
-#  resources :users,
+  resources :users
 
 # root :to => redirect("public/500.html")
 
@@ -60,7 +60,7 @@ DemoApp::Application.routes.draw do
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
 
-	root :to => 'public/500.html'
+#	root :to => 'public/500.html'
 
   # See how all your routes lay out with "rake routes"
 
