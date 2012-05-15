@@ -1,7 +1,7 @@
 DemoApp::Application.routes.draw do
   resources :users,
   
-    map.connect ':controller/:action/:id', :controller => 'users'
+#    map.connect ':controller/:action/:id', :controller => 'users'
 
 
 # root :to => redirect("public/500.html")
@@ -10,7 +10,7 @@ DemoApp::Application.routes.draw do
 
 # root_url  => 'public/500.html' 
 
-# root_url  => '../app/views/users/index.html.erb'
+ root_url  => 'app/views/users/index.html.erb'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
