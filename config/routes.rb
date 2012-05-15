@@ -1,5 +1,8 @@
 DemoApp::Application.routes.draw do
-  resources :users
+  resources :users,
+  
+    map.connect ':controller/:action/:id', :controller => 'users'
+
 
 # root :to => redirect("public/500.html")
 
